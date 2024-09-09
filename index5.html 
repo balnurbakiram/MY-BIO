@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    tr{
+      display: block;
+            margin-bottom: 8px;
+            font-weight: bold;
+            color: #936b6b;
+   
+    }
+    tr{
+            background-color: #93899e;
+            border: 1px solid #ddd;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(103, 80, 80, 0.1);
+            padding: 30px;
+            max-width: 1000px;
+            width: 79%;
+        }
+        button{ background-color: rgb(61, 115, 48);
+        }
+        button a{
+            background-color: #d5bcc9;
+            color: #5d3939;
+        }
+        h2{
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            background-color: #5d3939;
+            width: 110px;
+        }
+</style>
+<body>
+    <h2>Contact</h2>
+    <!--бұл жерде table істелген  with HTML -->
+    <table border="4">
+        
+        <tr>
+            <td>Name:</td>
+         <td>
+            <input
+            type="text"
+            placeholder="Type your name!"
+            required/>
+         </td> </tr>
+
+
+                <tr> <td>Email:</td>
+                   <td> <input
+                      type="email"
+                     placeholder="Type your email!"
+                    required/>
+                  </td>
+                </tr>
+                 <tr><td>Message:</td>
+                    <td><input type="message"
+                       width="10px"
+                       required/> </td>
+                
+                </tr>
+                <tr><td>
+                    <input type="button" name="submit!" value="submit!">
+                </td></tr>
+
+
+    </table>
+                <!-- Navigation menu -->
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="2index.html">About</a></li>
+            <li><a href="3index.html">Resume</a></li>
+            <li><a href="4index.html">Projects</a></li>
+        </ul>
+    </nav>
+    </table> 
+    <button><a href="4index.html">BACK</a></button>
+</body>
+</html>
